@@ -1,3 +1,130 @@
+<!-- Part A -->
+# Writing a Function in JavaScript
+
+In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
+
+## 1. Basic syntax
+```JavaScript
+consAt functionName = (params) => {
+  // code to be executed
+}
+```
+
+1. **const**: const should be used whenever a function expression is assigned to a variable.
+2. **The function name**: The name you choose for the function.
+3. **Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
+4. **The arrow syntax**: Indicates that this will be a function.
+5. **The body**: The statements that make up the function itself. Surrounded by curly braces.
+
+***Example***:
+```JavaScript
+const greet = (name) => {
+  console.log("Hello, " + name + "!");
+}
+```
+> Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+
+## 2. Calling a function
+
+To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
+
+***Example***:
+
+`greet('Alice');` // Outputs: Hello, Alice!
+
+## 3. Return values
+
+Functions can process data input and output a value using the *return* keyword.
+
+***Example***:
+
+```JavaScript
+const addNums = (numA, numB) => {
+  return numA + numB
+}
+
+const total = addNums(2, 4);
+
+console.log(total) // Expected value: 6 
+```
+<!-- This is a direct link -->
+For more information on functions and how they are used in JS, check out the MDN docs. 
+[Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+![Adventure](https://images.unsplash.com/photo-1745949779026-f7fdd1470f8c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+<!-- Those are my notes just ignore them -->
+
+<!-- [Google](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) -->
+
+<!-- This is a reference link -->
+<!-- please [click me][x]
+
+[x]: https://generalassembly.instructure.com/courses/907/assignments/23532?module_item_id=89427 -->
+
+
+<!-- Summary -->
+<!-- 
+README file type is md (README.md)
+
+ctrl + shift + v -> to have the preview readme view
+
+# -> h1
+## -> h2
+### -> h3 and so on...
+
+_text_ or *text* -> italic 
+__text__ or **text** -> bold
+___text___ or ***text*** -> bold and italic
+
+For LISTS:
+* -> filled bullet point 
+tab+* -> bullet point under one bullet point (other ways are + and -)
+
+for NUMBERS:
+1. -> normal number 
+tab+1. -> under 1 we will have another 1 (nested)
+
+`code goes here` -> wrapping the inline code
+
+```code goes here``` -> for multiline code (we can specify the name of the programming language)
+e.g. ```HTML 
+        code here 
+     ```
+[name](line goes here) -> for direct link
+
+[name][nameX] then [nameX]: link -> for a reference link
+e.g.  This is [a reference][example].
+
+[example]: http://www.example.com/
+Note: there must be one line gap between them
+
+> -> this is to write a blockquote
+
+Those are nested blockquotes
+>
+>>
+>>>
+
+![text](url) -> to add an image using url 
+e.g. ![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![text](path of the image) -> to add image using path 
+
+| Syntax | Description |
+| ------ | ----------- |      ->   To create a table
+| Header | Title |
+| Paragraph | Text | 
+
+- [x] text 1 -> to create a task list (checked)
+- [] text 2 -> to create a task list (unchecked)
+
+~~text~~ -> to have strikethrough over the text (line on the text)
+
+ -->
+
+
+<!-- Part 2 Starts from here  -->
+
 <!-- First topic: How to write an HTML Boilerplate -->
 <!-- Link:  https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
 
